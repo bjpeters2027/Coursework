@@ -1,0 +1,4 @@
+MainRoadGreenTime 10
+MainRoadYellowTime 2
+SideRoadGreenTime 7
+SideRoadYellowTime 2

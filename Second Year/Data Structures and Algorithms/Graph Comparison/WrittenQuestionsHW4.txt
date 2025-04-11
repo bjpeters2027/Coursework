@@ -1,0 +1,373 @@
+6.1)
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Oct 08 08:33:24 EDT 2024 (1728390804598)
+	Running symbol graph experiments on file: resources\hw04\input8.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 0.00000 seconds
+Graph with 23 vertices & 27 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Kevin Bacon
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                   1
+2                   		                   4
+3                   		                   2
+4                   		                   1
+5                   		                   3
+6                   		                   3
+Histogram printed. Time elapsed: 0.00000 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 0.00000 seconds
+Graph with 15 vertices & 27 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Kevin Bacon
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                   1
+2                   		                   4
+3                   		                   2
+4                   		                   1
+5                   		                   3
+6                   		                   3
+Histogram printed. Time elapsed: 0.00000 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.00000 seconds
+Graph with 8 vertices & 10 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Movie 0
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                   3
+2                   		                   1
+3                   		                   1
+4                   		                   1
+5                   		                   1
+Histogram printed. Time elapsed: 0.00000 seconds
+
+6.2)
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Oct 08 09:03:49 EDT 2024 (1728392629771)
+	Running symbol graph experiments on file: resources\hw04\movies2012.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 0.00000 seconds
+Graph with 22226 vertices & 25191 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Antonio Banderas
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                  37
+2                   		                1677
+3                   		               11734
+4                   		                6125
+5                   		                1004
+6                   		                 126
+7                   		                  59
+2147483647          		                 945
+Histogram printed. Time elapsed: 0.00000 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 0.29688 seconds
+Graph with 21708 vertices & 1062828 edges traversed using BFS.
+Time elapsed: 0.21875 seconds
+------------------------------------
+
+Frequency Chart for: Antonio Banderas
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                  37
+2                   		                1677
+3                   		               11734
+4                   		                6125
+5                   		                1004
+6                   		                 126
+7                   		                  59
+2147483647          		                 945
+Histogram printed. Time elapsed: 0.00000 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.04688 seconds
+Graph with 518 vertices & 3213 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Magic Mike (2012)
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                  32
+2                   		                 263
+3                   		                 148
+4                   		                  23
+5                   		                   3
+2147483647          		                  48
+Histogram printed. Time elapsed: 0.00000 seconds
+
+6.3)
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Oct 08 09:05:17 EDT 2024 (1728392717203)
+	Running symbol graph experiments on file: resources\hw04\movies2010p.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 0.20313 seconds
+Graph with 82199 vertices & 117809 edges traversed using BFS.
+Time elapsed: 0.17188 seconds
+------------------------------------
+
+Frequency Chart for: Tom Hiddleston
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 653
+2                   		               32504
+3                   		               42999
+4                   		                2324
+5                   		                 161
+6                   		                  47
+7                   		                   9
+2147483647          		                 954
+Histogram printed. Time elapsed: 0.00000 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 4.03125 seconds
+Graph with 79652 vertices & 4304307 edges traversed using BFS.
+Time elapsed: 5.20313 seconds
+------------------------------------
+
+Frequency Chart for: Tom Hiddleston
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 653
+2                   		               32504
+3                   		               42999
+4                   		                2324
+5                   		                 161
+6                   		                  47
+7                   		                   9
+2147483647          		                 954
+Histogram printed. Time elapsed: 0.01563 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.03125 seconds
+Graph with 2547 vertices & 73687 edges traversed using BFS.
+Time elapsed: 0.03125 seconds
+------------------------------------
+
+Frequency Chart for: Despicable Me (2010)
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 104
+2                   		                1740
+3                   		                 591
+4                   		                  23
+5                   		                   3
+6                   		                   1
+7                   		                   1
+2147483647          		                  83
+Histogram printed. Time elapsed: 0.00000 seconds
+
+6.4)
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Oct 08 09:06:54 EDT 2024 (1728392814500)
+	Running symbol graph experiments on file: resources\hw04\movies2005p.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 0.18750 seconds
+Graph with 154081 vertices & 251730 edges traversed using BFS.
+Time elapsed: 0.03125 seconds
+------------------------------------
+
+Frequency Chart for: Jennifer Lawrence
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 937
+2                   		               65007
+3                   		               79156
+4                   		                2455
+5                   		                  48
+2147483647          		                 887
+Histogram printed. Time elapsed: 0.10938 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 2.48438 seconds
+Graph with 148491 vertices & 8657731 edges traversed using BFS.
+Time elapsed: 3.57813 seconds
+------------------------------------
+
+Frequency Chart for: Jennifer Lawrence
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 937
+2                   		               65007
+3                   		               79156
+4                   		                2455
+5                   		                  48
+2147483647          		                 887
+Histogram printed. Time elapsed: 0.03125 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.48438 seconds
+Graph with 5590 vertices & 302415 edges traversed using BFS.
+Time elapsed: 0.15625 seconds
+------------------------------------
+
+Frequency Chart for: The Muppets (2011)
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 375
+2                   		                4496
+3                   		                 609
+4                   		                  15
+2147483647          		                  94
+Histogram printed. Time elapsed: 0.00000 seconds
+
+7.1)
+Welcome to CS 2223 - Oracle of Bacon!
+	TODAY: Tue Oct 08 09:09:25 EDT 2024 (1728392965789)
+	Input File: resources\hw04\movies2013.txt
+------------------------------------
+Enter the source actor: Kevin Bacon
+
+Graph with 21078 vertices & 24170 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Kevin Bacon
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 152
+2                   		                2816
+3                   		               12243
+4                   		                4230
+5                   		                 253
+6                   		                  47
+2147483647          		                 819
+
+Hollywood number: 3.08885
+
+Enter the destination actor or type quit to finish: Sandra Bullock
+
+Kevin Bacon and Sandra Bullock have a distance of 4.
+
+1. Sandra Bullock was in "Gravity (2013)" with Ed Harris.
+2. Ed Harris was in "Pain & Gain (2013)" with Rob Corddry.
+3. Rob Corddry was in "The Way Way Back (2013)" with Aaron Dorsey.
+4. Aaron Dorsey was in "R.I.P.D. (2013)" with Kevin Bacon.
+
+Enter the destination actor or type quit to finish: Kate Winslet
+
+Kevin Bacon and Kate Winslet have a distance of 2.
+
+1. Kate Winslet was in "Labor Day (2013)" with Aaron Dorsey.
+2. Aaron Dorsey was in "R.I.P.D. (2013)" with Kevin Bacon.
+
+Enter the destination actor or type quit to finish: Leonardo DiCaprio
+
+Kevin Bacon and Leonardo DiCaprio have a distance of 2.
+
+1. Leonardo DiCaprio was in "The Wolf of Wall Street (2013)" with Kamron Leal.
+2. Kamron Leal was in "R.I.P.D. (2013)" with Kevin Bacon.
+
+Enter the destination actor or type quit to finish: quit
+
+Continue playing (y/n)?: n
+
+------------------------------------
+
+7.2)
+Welcome to CS 2223 - Oracle of Bacon!
+	TODAY: Tue Oct 08 09:11:59 EDT 2024 (1728393119010)
+	Input File: resources\hw04\movies2013.txt
+------------------------------------
+Enter the source actor: Henry Cavill
+
+Graph with 21078 vertices & 24170 edges traversed using BFS.
+Time elapsed: 0.01563 seconds
+------------------------------------
+
+Frequency Chart for: Henry Cavill
+Degrees of Separation		Frequency
+---------------------		--------------------
+0                   		                   1
+1                   		                 123
+2                   		                2734
+3                   		               12463
+4                   		                4047
+5                   		                 374
+2147483647          		                 819
+
+Hollywood number: 3.09178
+
+Enter the destination actor or type quit to finish: Chris Pratt
+
+Henry Cavill and Chris Pratt have a distance of 2.
+
+1. Chris Pratt was in "Her (2013)" with Amy Adams.
+2. Amy Adams was in "Man of Steel (2013)" with Henry Cavill.
+
+Enter the destination actor or type quit to finish: Chris Evans
+
+Henry Cavill and Chris Evans have a distance of 3.
+
+1. Chris Evans was in "Thor: The Dark World (2013)" with Ray Stevenson.
+2. Ray Stevenson was in "G.I. Joe: Retaliation (2013)" with Benjamin Blankenship.
+3. Benjamin Blankenship was in "Man of Steel (2013)" with Henry Cavill.
+
+Enter the destination actor or type quit to finish: Robert Downey Jr.
+
+Henry Cavill and Robert Downey Jr. have a distance of 2.
+
+1. Robert Downey Jr. was in "Iron Man 3 (2013)" with Diezel Ramos.
+2. Diezel Ramos was in "Man of Steel (2013)" with Henry Cavill.
+
+Enter the destination actor or type quit to finish: quit
+
+Continue playing (y/n)?: n
+
+------------------------------------

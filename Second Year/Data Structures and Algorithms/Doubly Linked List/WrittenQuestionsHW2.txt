@@ -1,0 +1,94 @@
+1.1)
+Welcome to CS 2223 - Sort Compare!
+	TODAY: Sat Sep 07 17:23:31 EDT 2024 (1725744211919)
+	Running sorting algorithms on 1000 random Doubles (100 trials)
+
+------------------------------------
+Bubble sort took an average of: 0.00236 seconds to sort.
+Selection sort took an average of: 0.00148 seconds to sort.
+Insertion sort took an average of: 0.00154 seconds to sort.
+Topdown mergesort took an average of: 0.00053 seconds to sort.
+Bottom up mergesort took an average of: 0.00083 seconds to sort.
+Quicksort took an average of: 0.00022 seconds to sort.
+Quicksort (Bentley-Mcllroy) took an average of: 0.00024 seconds to sort.
+------------------------------------
+
+
+1.2)
+Welcome to CS 2223 - Sort Compare!
+	TODAY: Sat Sep 07 17:24:41 EDT 2024 (1725744281266)
+	Running sorting algorithms on 2000 random Doubles (100 trials)
+
+------------------------------------
+Bubble sort took an average of: 0.00703 seconds to sort.
+Selection sort took an average of: 0.00393 seconds to sort.
+Insertion sort took an average of: 0.00465 seconds to sort.
+Topdown mergesort took an average of: 0.00062 seconds to sort.
+Bottom up mergesort took an average of: 0.00058 seconds to sort.
+Quicksort took an average of: 0.00050 seconds to sort.
+Quicksort (Bentley-Mcllroy) took an average of: 0.00038 seconds to sort.
+------------------------------------
+
+
+1.3)
+Welcome to CS 2223 - Sort Compare!
+	TODAY: Sat Sep 07 17:25:59 EDT 2024 (1725744359394)
+	Running sorting algorithms on 4000 random Doubles (100 trials)
+
+------------------------------------
+Bubble sort took an average of: 0.03270 seconds to sort.
+Selection sort took an average of: 0.01474 seconds to sort.
+Insertion sort took an average of: 0.01793 seconds to sort.
+Topdown mergesort took an average of: 0.00082 seconds to sort.
+Bottom up mergesort took an average of: 0.00091 seconds to sort.
+Quicksort took an average of: 0.00072 seconds to sort.
+Quicksort (Bentley-Mcllroy) took an average of: 0.00061 seconds to sort.
+------------------------------------
+
+
+1.4)
+Welcome to CS 2223 - Sort Compare!
+	TODAY: Sat Sep 07 17:27:19 EDT 2024 (1725744439910)
+	Running sorting algorithms on 8000 random Doubles (100 trials)
+
+------------------------------------
+Bubble sort took an average of: 0.10558 seconds to sort.
+Selection sort took an average of: 0.05404 seconds to sort.
+Insertion sort took an average of: 0.07132 seconds to sort.
+Topdown mergesort took an average of: 0.00174 seconds to sort.
+Bottom up mergesort took an average of: 0.00220 seconds to sort.
+Quicksort took an average of: 0.00128 seconds to sort.
+Quicksort (Bentley-Mcllroy) took an average of: 0.00128 seconds to sort.
+------------------------------------
+
+
+1.5)
+Welcome to CS 2223 - Sort Compare!
+	TODAY: Sat Sep 07 17:28:27 EDT 2024 (1725744507679)
+	Running sorting algorithms on 16000 random Doubles (100 trials)
+
+------------------------------------
+Bubble sort took an average of: 0.63849 seconds to sort.
+Selection sort took an average of: 0.18445 seconds to sort.
+Insertion sort took an average of: 0.28404 seconds to sort.
+Topdown mergesort took an average of: 0.00344 seconds to sort.
+Bottom up mergesort took an average of: 0.00430 seconds to sort.
+Quicksort took an average of: 0.00275 seconds to sort.
+Quicksort (Bentley-Mcllroy) took an average of: 0.00253 seconds to sort.
+------------------------------------
+
+
+1.6)
+Welcome to CS 2223 - Sort Compare!
+	TODAY: Sat Sep 07 17:36:34 EDT 2024 (1725744994506)
+	Running sorting algorithms on 32000 random Doubles (100 trials)
+
+------------------------------------
+Bubble sort took an average of: 3.67913 seconds to sort.
+Selection sort took an average of: 0.88233 seconds to sort.
+Insertion sort took an average of: 1.34768 seconds to sort.
+Topdown mergesort took an average of: 0.00913 seconds to sort.
+Bottom up mergesort took an average of: 0.00885 seconds to sort.
+Quicksort took an average of: 0.00686 seconds to sort.
+Quicksort (Bentley-Mcllroy) took an average of: 0.00601 seconds to sort.
+------------------------------------

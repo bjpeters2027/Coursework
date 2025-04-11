@@ -1,0 +1,453 @@
+Author: Brendon Peters
+Submitted on: 9/24/2024
+
+1.4)
+    Welcome to CS 2223 - Merge Min Priority Queues!
+        TODAY: Sat Sep 21 19:11:41 EDT 2024 (1726960301043)
+        Running MergeMinPQ using seed: 7
+    ------------------------------------
+    h1 contains:  1024 elements, h2 contains:  1024 elements, sorted and merged array contains:   2048 elements
+    h1 contains:  1024 elements, h2 contains:  2048 elements, sorted and merged array contains:   3072 elements
+    h1 contains:  1024 elements, h2 contains:  4096 elements, sorted and merged array contains:   5120 elements
+    h1 contains:  1024 elements, h2 contains:  8192 elements, sorted and merged array contains:   9216 elements
+    h1 contains:  1024 elements, h2 contains: 16384 elements, sorted and merged array contains:  17408 elements
+    h1 contains:  1024 elements, h2 contains: 32768 elements, sorted and merged array contains:  33792 elements
+    h1 contains:  1024 elements, h2 contains: 65536 elements, sorted and merged array contains:  66560 elements
+    ------------------------------------
+    h1 contains:  2048 elements, h2 contains:  1024 elements, sorted and merged array contains:   3072 elements
+    h1 contains:  2048 elements, h2 contains:  2048 elements, sorted and merged array contains:   4096 elements
+    h1 contains:  2048 elements, h2 contains:  4096 elements, sorted and merged array contains:   6144 elements
+    h1 contains:  2048 elements, h2 contains:  8192 elements, sorted and merged array contains:  10240 elements
+    h1 contains:  2048 elements, h2 contains: 16384 elements, sorted and merged array contains:  18432 elements
+    h1 contains:  2048 elements, h2 contains: 32768 elements, sorted and merged array contains:  34816 elements
+    h1 contains:  2048 elements, h2 contains: 65536 elements, sorted and merged array contains:  67584 elements
+    ------------------------------------
+    h1 contains:  4096 elements, h2 contains:  1024 elements, sorted and merged array contains:   5120 elements
+    h1 contains:  4096 elements, h2 contains:  2048 elements, sorted and merged array contains:   6144 elements
+    h1 contains:  4096 elements, h2 contains:  4096 elements, sorted and merged array contains:   8192 elements
+    h1 contains:  4096 elements, h2 contains:  8192 elements, sorted and merged array contains:  12288 elements
+    h1 contains:  4096 elements, h2 contains: 16384 elements, sorted and merged array contains:  20480 elements
+    h1 contains:  4096 elements, h2 contains: 32768 elements, sorted and merged array contains:  36864 elements
+    h1 contains:  4096 elements, h2 contains: 65536 elements, sorted and merged array contains:  69632 elements
+    ------------------------------------
+    h1 contains:  8192 elements, h2 contains:  1024 elements, sorted and merged array contains:   9216 elements
+    h1 contains:  8192 elements, h2 contains:  2048 elements, sorted and merged array contains:  10240 elements
+    h1 contains:  8192 elements, h2 contains:  4096 elements, sorted and merged array contains:  12288 elements
+    h1 contains:  8192 elements, h2 contains:  8192 elements, sorted and merged array contains:  16384 elements
+    h1 contains:  8192 elements, h2 contains: 16384 elements, sorted and merged array contains:  24576 elements
+    h1 contains:  8192 elements, h2 contains: 32768 elements, sorted and merged array contains:  40960 elements
+    h1 contains:  8192 elements, h2 contains: 65536 elements, sorted and merged array contains:  73728 elements
+    ------------------------------------
+    h1 contains: 16384 elements, h2 contains:  1024 elements, sorted and merged array contains:  17408 elements
+    h1 contains: 16384 elements, h2 contains:  2048 elements, sorted and merged array contains:  18432 elements
+    h1 contains: 16384 elements, h2 contains:  4096 elements, sorted and merged array contains:  20480 elements
+    h1 contains: 16384 elements, h2 contains:  8192 elements, sorted and merged array contains:  24576 elements
+    h1 contains: 16384 elements, h2 contains: 16384 elements, sorted and merged array contains:  32768 elements
+    h1 contains: 16384 elements, h2 contains: 32768 elements, sorted and merged array contains:  49152 elements
+    h1 contains: 16384 elements, h2 contains: 65536 elements, sorted and merged array contains:  81920 elements
+    ------------------------------------
+    h1 contains: 32768 elements, h2 contains:  1024 elements, sorted and merged array contains:  33792 elements
+    h1 contains: 32768 elements, h2 contains:  2048 elements, sorted and merged array contains:  34816 elements
+    h1 contains: 32768 elements, h2 contains:  4096 elements, sorted and merged array contains:  36864 elements
+    h1 contains: 32768 elements, h2 contains:  8192 elements, sorted and merged array contains:  40960 elements
+    h1 contains: 32768 elements, h2 contains: 16384 elements, sorted and merged array contains:  49152 elements
+    h1 contains: 32768 elements, h2 contains: 32768 elements, sorted and merged array contains:  65536 elements
+    h1 contains: 32768 elements, h2 contains: 65536 elements, sorted and merged array contains:  98304 elements
+    ------------------------------------
+    h1 contains: 65536 elements, h2 contains:  1024 elements, sorted and merged array contains:  66560 elements
+    h1 contains: 65536 elements, h2 contains:  2048 elements, sorted and merged array contains:  67584 elements
+    h1 contains: 65536 elements, h2 contains:  4096 elements, sorted and merged array contains:  69632 elements
+    h1 contains: 65536 elements, h2 contains:  8192 elements, sorted and merged array contains:  73728 elements
+    h1 contains: 65536 elements, h2 contains: 16384 elements, sorted and merged array contains:  81920 elements
+    h1 contains: 65536 elements, h2 contains: 32768 elements, sorted and merged array contains:  98304 elements
+    h1 contains: 65536 elements, h2 contains: 65536 elements, sorted and merged array contains: 131072 elements
+    ------------------------------------
+
+
+4.1)
+    Welcome to CS 2223 - Symbol Table Compare!
+        TODAY: Tue Sep 24 11:08:50 EDT 2024 (1727190530449)
+        Running symbol table experiments on file: resources\hw03\medTale.txt.
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Sequential Search ST
+
+    Total Words: 1002
+    Unique Words: 477
+
+    Max Frequency Word: the
+    Frequency: 77
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search ST
+
+    Total Words: 1002
+    Unique Words: 477
+
+    Max Frequency Word: the
+    Frequency: 77
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Separate Chaining Hashing ST
+
+    Total Words: 1002
+    Unique Words: 477
+
+    Max Frequency Word: the
+    Frequency: 77
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Linear Probing Hashing ST
+
+    Total Words: 1002
+    Unique Words: 477
+
+    Max Frequency Word: the
+    Frequency: 77
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Quadratic Probing Hashing ST
+
+    Total Words: 1002
+    Unique Words: 477
+
+    Max Frequency Word: the
+    Frequency: 77
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search Tree ST
+
+    Total Words: 1002
+    Unique Words: 477
+
+    Max Frequency Word: the
+    Frequency: 77
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: AVL Tree ST
+
+    Total Words: 1002
+    Unique Words: 477
+
+    Max Frequency Word: the
+    Frequency: 77
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+
+4.2)
+    Welcome to CS 2223 - Symbol Table Compare!
+        TODAY: Tue Sep 24 11:10:08 EDT 2024 (1727190608241)
+        Running symbol table experiments on file: resources\hw03\aesop.txt.
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Sequential Search ST
+
+    Total Words: 35485
+    Unique Words: 6961
+
+    Max Frequency Word: the
+    Frequency: 2199
+
+    Time Spent on Get: 1.15625 seconds
+    Time Spent on Put: 0.32813 seconds
+    Time Spent on Contains: 0.09375 seconds
+    Total Elapsed Time: 1.57813 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search ST
+
+    Total Words: 35485
+    Unique Words: 6961
+
+    Max Frequency Word: the
+    Frequency: 2199
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.09375 seconds
+    Total Elapsed Time: 0.09375 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Separate Chaining Hashing ST
+
+    Total Words: 35485
+    Unique Words: 6961
+
+    Max Frequency Word: the
+    Frequency: 2199
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Linear Probing Hashing ST
+
+    Total Words: 35485
+    Unique Words: 6961
+
+    Max Frequency Word: the
+    Frequency: 2199
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.00000 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.00000 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Quadratic Probing Hashing ST
+
+    Total Words: 35485
+    Unique Words: 6961
+
+    Max Frequency Word: the
+    Frequency: 2199
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.01563 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.01563 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search Tree ST
+
+    Total Words: 35485
+    Unique Words: 6961
+
+    Max Frequency Word: the
+    Frequency: 2199
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.01563 seconds
+    Time Spent on Contains: 0.01563 seconds
+    Total Elapsed Time: 0.03125 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: AVL Tree ST
+
+    Total Words: 35485
+    Unique Words: 6961
+
+    Max Frequency Word: the
+    Frequency: 2199
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.03125 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.03125 seconds
+    ------------------------------------
+
+4.3)
+    Welcome to CS 2223 - Symbol Table Compare!
+        TODAY: Tue Sep 24 11:12:27 EDT 2024 (1727190747096)
+        Running symbol table experiments on file: resources\hw03\tale.txt.
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Sequential Search ST
+
+    Total Words: 135643
+    Unique Words: 10662
+
+    Max Frequency Word: the
+    Frequency: 7989
+
+    Time Spent on Get: 11.14063 seconds
+    Time Spent on Put: 9.68750 seconds
+    Time Spent on Contains: 0.68750 seconds
+    Total Elapsed Time: 21.51563 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search ST
+
+    Total Words: 135643
+    Unique Words: 10662
+
+    Max Frequency Word: the
+    Frequency: 7989
+
+    Time Spent on Get: 0.07813 seconds
+    Time Spent on Put: 0.01563 seconds
+    Time Spent on Contains: 0.20313 seconds
+    Total Elapsed Time: 0.29688 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Separate Chaining Hashing ST
+
+    Total Words: 135643
+    Unique Words: 10662
+
+    Max Frequency Word: the
+    Frequency: 7989
+
+    Time Spent on Get: 0.04688 seconds
+    Time Spent on Put: 0.01563 seconds
+    Time Spent on Contains: 0.04688 seconds
+    Total Elapsed Time: 0.10938 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Linear Probing Hashing ST
+
+    Total Words: 135643
+    Unique Words: 10662
+
+    Max Frequency Word: the
+    Frequency: 7989
+
+    Time Spent on Get: 0.00000 seconds
+    Time Spent on Put: 0.01563 seconds
+    Time Spent on Contains: 0.03125 seconds
+    Total Elapsed Time: 0.04688 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Quadratic Probing Hashing ST
+
+    Total Words: 135643
+    Unique Words: 10662
+
+    Max Frequency Word: the
+    Frequency: 7989
+
+    Time Spent on Get: 0.03125 seconds
+    Time Spent on Put: 0.04688 seconds
+    Time Spent on Contains: 0.04688 seconds
+    Total Elapsed Time: 0.12500 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search Tree ST
+
+    Total Words: 135643
+    Unique Words: 10662
+
+    Max Frequency Word: the
+    Frequency: 7989
+
+    Time Spent on Get: 0.03125 seconds
+    Time Spent on Put: 0.01563 seconds
+    Time Spent on Contains: 0.00000 seconds
+    Total Elapsed Time: 0.04688 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: AVL Tree ST
+
+    Total Words: 135643
+    Unique Words: 10662
+
+    Max Frequency Word: the
+    Frequency: 7989
+
+    Time Spent on Get: 0.04688 seconds
+    Time Spent on Put: 0.04688 seconds
+    Time Spent on Contains: 0.01563 seconds
+    Total Elapsed Time: 0.10938 seconds
+    ------------------------------------
+
+    4.4)
+    Welcome to CS 2223 - Symbol Table Compare!
+        TODAY: Tue Sep 24 11:14:26 EDT 2024 (1727190866557)
+        Running symbol table experiments on file: resources\hw03\mobydick.txt.
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Sequential Search ST
+
+    Total Words: 209341
+    Unique Words: 31801
+
+    Max Frequency Word: the
+    Frequency: 13527
+
+    Time Spent on Get: 69.79688 seconds
+    Time Spent on Put: 52.96875 seconds
+    Time Spent on Contains: 10.29688 seconds
+    Total Elapsed Time: 133.06250 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search ST
+
+    Total Words: 209341
+    Unique Words: 31801
+
+    Max Frequency Word: the
+    Frequency: 13527
+
+    Time Spent on Get: 0.14063 seconds
+    Time Spent on Put: 0.10938 seconds
+    Time Spent on Contains: 2.71875 seconds
+    Total Elapsed Time: 2.96875 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Separate Chaining Hashing ST
+
+    Total Words: 209341
+    Unique Words: 31801
+
+    Max Frequency Word: the
+    Frequency: 13527
+
+    Time Spent on Get: 0.10938 seconds
+    Time Spent on Put: 0.10938 seconds
+    Time Spent on Contains: 0.14063 seconds
+    Total Elapsed Time: 0.35938 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Linear Probing Hashing ST
+
+    Total Words: 209341
+    Unique Words: 31801
+
+    Max Frequency Word: the
+    Frequency: 13527
+
+    Time Spent on Get: 0.15625 seconds
+    Time Spent on Put: 0.12500 seconds
+    Time Spent on Contains: 0.06250 seconds
+    Total Elapsed Time: 0.34375 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Quadratic Probing Hashing ST
+
+    Total Words: 209341
+    Unique Words: 31801
+
+    Max Frequency Word: the
+    Frequency: 13527
+
+    Time Spent on Get: 0.06250 seconds
+    Time Spent on Put: 0.06250 seconds
+    Time Spent on Contains: 0.09375 seconds
+    Total Elapsed Time: 0.21875 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: Binary Search Tree ST
+
+    Total Words: 209341
+    Unique Words: 31801
+
+    Max Frequency Word: the
+    Frequency: 13527
+
+    Time Spent on Get: 0.07813 seconds
+    Time Spent on Put: 0.06250 seconds
+    Time Spent on Contains: 0.03125 seconds
+    Total Elapsed Time: 0.17188 seconds
+    ------------------------------------
+    SYMBOL TABLE IMPLEMENTATION: AVL Tree ST
+
+    Total Words: 209341
+    Unique Words: 31801
+
+    Max Frequency Word: the
+    Frequency: 13527
+
+    Time Spent on Get: 0.10938 seconds
+    Time Spent on Put: 0.12500 seconds
+    Time Spent on Contains: 0.07813 seconds
+    Total Elapsed Time: 0.31250 seconds
+    ------------------------------------
